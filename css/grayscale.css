@@ -22,8 +22,9 @@
 
 #mainNav .navbar-brand {
   color: #161616;
-  font-weight: 700;
+  font-weight: 600;
   padding: .9rem 0;
+  font-size: 36px;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -47,14 +48,16 @@
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    padding: 0rem 0;
+    color: white;
   }
   #mainNav .nav-link {
+    text-transform: uppercase;
+    font-size: .8em;
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -92,8 +95,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead-computer.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-masthead-computer.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -101,16 +104,18 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .masthead h2 {
+  text-transform: uppercase;
   max-width: 20rem;
   font-size: 1rem;
 }
@@ -128,13 +133,16 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    letter-spacing: 1.25rem;
   }
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
+  }
+  .masthead .lo {
+    letter-spacing: 0rem;
   }
 }
 
@@ -142,19 +150,21 @@
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: 'Raleway', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
   border: 0;
+  border-radius: 0;
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #343a40;
+  opacity: .6;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #b61414;
 }
 
 .btn-primary:focus {
@@ -176,8 +186,18 @@
   margin-bottom: 5rem;
 }
 
+.about-section h2 {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
 .projects-section {
   padding: 10rem 0;
+}
+
+.projects-section h2 {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
 }
 
 .projects-section .featured-text {
@@ -222,7 +242,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Varela Round';
+  font-family: 'Raleway', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -240,7 +260,7 @@
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -274,7 +294,7 @@
 }
 
 body {
-  font-family: 'Nunito';
+  font-family: 'Raleway', sans-serif;
   letter-spacing: 0.0625em;
 }
 
