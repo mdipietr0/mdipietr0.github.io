@@ -322,3 +322,7 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+.img-fluid:hover {
+  opacity: .85;
+}
