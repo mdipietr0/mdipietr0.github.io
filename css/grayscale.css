@@ -227,6 +227,42 @@
   }
 }
 
+.skills-section {
+  padding: 5rem 0;
+}
+
+.skills-section h2 {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.skills-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .skills-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+
+.skills-section .skills-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .skills-section .skills-text {
+    padding: 5rem;
+  }
+  .skills-section .skills-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
 .signup-section {
   padding: 10rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
@@ -325,4 +361,9 @@ footer {
 
 .img-fluid:hover {
   opacity: .85;
+}
+
+.skill-logo {
+  width: 100px;
+  margin: 10px;
 }

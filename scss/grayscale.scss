@@ -5,6 +5,7 @@
 @import 'buttons.scss';
 @import 'about.scss';
 @import 'projects.scss';
+@import 'skills.scss';
 @import 'signup.scss';
 @import 'contact.scss';
 
@@ -40,4 +41,9 @@ footer {
 
 .img-fluid:hover {
   opacity: .85;
+}
+
+.skill-logo {
+  width: 100px;
+  margin: 10px;
 }
