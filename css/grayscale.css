@@ -24,7 +24,7 @@
   color: #161616;
   font-weight: 600;
   padding: .9rem 0;
-  font-size: 36px;
+  font-size: 16px;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -49,6 +49,7 @@
   }
   #mainNav .navbar-brand {
     padding: 0rem 0;
+    font-size: 36px;
     color: white;
   }
   #mainNav .nav-link {
