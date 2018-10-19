@@ -49,6 +49,20 @@ footer {
   margin: 10px;
 }
 
+.technology-logo {
+  width: 50px;
+  margin: 6px;
+}
+
+.tech-box {
+  background: linear-gradient($black, $gray-900, $gray-500, $white);
+  border-radius: 10px;
+}
+
+.img-fill {
+  min-height: 100%;
+}
+
 /* Grow */
 .hvr-grow {
   display: inline-block;
