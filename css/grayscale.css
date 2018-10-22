@@ -237,6 +237,19 @@
   }
 }
 
+.projects-section img {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  -webkit-transition: all .7s ease-out;
+  transition: all .7s ease-out;
+}
+
+.projects-section img:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+
 .skills-section {
   padding: 5rem 0;
 }
@@ -383,10 +396,6 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
-}
-
-.img-fluid:hover {
-  opacity: .85;
 }
 
 .skill-logo {
