@@ -245,6 +245,13 @@
   transition: all .7s ease-out;
 }
 
+@media (max-width: 992px) {
+  .projects-section img {
+    -webkit-filter: none;
+    filter: none;
+  }
+}
+
 .projects-section img:hover {
   -webkit-filter: none;
   filter: none;
